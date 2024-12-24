@@ -1,0 +1,174 @@
+:root{
+    --red:#740938;
+    --green:#3C552D;
+    --yellow:#FCF596;
+   --white:#FBFBFB;
+   --darkred:#C62E2E;
+   --darkyellow:#FAB12F;
+   --lightyellow:#FFFECB;
+   --nwred:#D91656;
+}
+body,h2{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   background-image: url(/project1/Assets/logochilli.jpg);
+   background-size: cover;
+   background-position: center;
+   height:100vh;
+   color:var(--white)
+}
+header a{
+    text-decoration: none;
+    color:var(--red);
+    min-width:120px;
+    
+}
+header{
+    display:flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    
+}
+#logo{
+   flex:3;
+   font-size: 1.59em;
+   min-width:899px
+}
+nav{
+    flex:2;
+    display: flex;
+
+}
+nav a{
+    flex:1;
+    padding-right: 1.5em;
+    }
+nav a:hover{
+    color:var(--yellow)
+}
+.mainsection{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tag1{
+    color:var(--green);
+    font-size:2em;
+    font-weight:bolder
+}
+.tag2{
+    color:var(--darkred);
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+.mainsection div{
+   margin-top: .80em;
+}
+.callus{
+    color:var(--lightyellow);
+}
+.btn{
+    width:20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--green);
+    color:var(--white);
+}
+.menu-items{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  background:linear-gradient(to right,rgb(51, 51, 22),rgb(209, 209, 28));
+  color:var(--white);
+}
+#menu,#location{
+    background:linear-gradient(to right,rgb(51, 51, 22),rgb(253, 253, 31));
+    font-size:1.9em;
+    color:var(--nwred);
+    display:flex;
+    justify-content:center;
+}
+/* #location{
+    background:linear-gradient(to right,rgb(253, 253, 31),rgb(51, 51, 22));
+} */
+th{
+    color:var(--yellow);
+    font-size:1.3em;
+}
+table{
+    width:100%;
+    padding:1em; 
+}
+.menu-items tr{
+    display:flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu-items td:nth-child(1){
+    flex:1;
+    justify-self:left;
+}
+.menu-items td:nth-child(2){
+    justify-self:right;
+}
+.loc-items{
+    background:linear-gradient(to right,rgb(253, 253, 31),rgb(51, 51, 22));
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.loc-iems h2{
+    margin-bottom: .8em;
+}
+.loc-items div{
+  flex:1;
+  padding:1.2em;
+  min-width:140px;
+
+}
+footer{
+    background-color:var(--darkyellow);
+    padding: 5px;
+    color:#D91656
+}
+#locationicon{
+    width:2px;
+    padding-right: 2em;
+    margin-right: 2em;
+}
+header a i{
+    margin-right: .5em;
+}
+nav a i{
+  margin-left: .1em;
+}
+footer div{
+    display: flex;
+    padding:.3em;
+
+}
+#insta{
+    width:20px;
+    height:10px;
+    color:black;
+}
+#fb{
+    width:20px;
+    height:10px;
+    color:black;
+}
+#insta:hover{
+    color:var(--white);
+}
+#fb:hover{
+    color:var(--white);
+}
+
+
